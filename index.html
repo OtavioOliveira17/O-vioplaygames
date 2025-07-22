@@ -1,2 +1,119 @@
 Otávio Silva de Oliveira
 <a href="https://flexboxfroggy.com/">Jogo Flexbox Froggy</a>
+<a href="https://codingfantasy.com/games/flexboxadventure/play"> Jogo Play Flex Box Adventure</a>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atividade #09 - Flexbox Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            max-width: 900px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .challenge-level {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Atividade #09 - Flexbox Games</h1>
+
+    <section id="sobre-mim">
+        <h2>Nome completo</h2>
+        <p>Seu Nome Completo Aqui</p>
+    </section>
+
+    <section id="jogos-escolhidos">
+        <h2>Jogos Escolhidos</h2>
+        
+        <article>
+            <h3>Nome do Jogo 1</h3>
+            <p><strong>Link:</strong> <a href="https://exemplo-jogo1.com" target="_blank" rel="noopener noreferrer">https://exemplo-jogo1.com</a></p>
+            <p><strong>Justificativa:</strong> Explique por que escolheu este jogo.</p>
+        </article>
+        
+        <article>
+            <h3>Nome do Jogo 2</h3>
+            <p><strong>Link:</strong> <a href="https://exemplo-jogo2.com" target="_blank" rel="noopener noreferrer">https://exemplo-jogo2.com</a></p>
+            <p><strong>Justificativa:</strong> Explique por que escolheu este jogo.</p>
+        </article>
+    </section>
+
+    <section id="registro-niveis">
+        <h2>Registro de Níveis</h2>
+
+        <article class="challenge-level">
+            <h3>Jogo 1 - Nível Desafiador 1</h3>
+            <img src="imgs/jogo1-nivel1.png" alt="Print screen do jogo 1 nível 1" />
+            <p>Explique o motivo de ter considerado esse nível desafiador.</p>
+        </article>
+
+        <article class="challenge-level">
+            <h3>Jogo 1 - Nível Desafiador 2</h3>
+            <img src="imgs/jogo1-nivel2.png" alt="Print screen do jogo 1 nível 2" />
+            <p>Explique o motivo de ter considerado esse nível desafiador.</p>
+        </article>
+
+        <article class="challenge-level">
+            <h3>Jogo 1 - Nível Desafiador 3</h3>
+            <img src="imgs/jogo1-nivel3.png" alt="Print screen do jogo 1 nível 3" />
+            <p>Explique o motivo de ter considerado esse nível desafiador.</p>
+        </article>
+
+        <article class="challenge-level">
+            <h3>Jogo 2 - Nível Desafiador 1</h3>
+            <img src="imgs/jogo2-nivel1.png" alt="Print screen do jogo 2 nível 1" />
+            <p>Explique o motivo de ter considerado esse nível desafiador.</p>
+        </article>
+
+        <article class="challenge-level">
+            <h3>Jogo 2 - Nível Desafiador 2</h3>
+            <img src="imgs/jogo2-nivel2.png" alt="Print screen do jogo 2 nível 2" />
+            <p>Explique o motivo de ter considerado esse nível desafiador.</p>
+        </article>
+
+        <article class="challenge-level">
+            <h3>Jogo 2 - Nível Desafiador 3</h3>
+            <img src="imgs/jogo2-nivel3.png" alt="Print screen do jogo 2 nível 3" />
+            <p>Explique o motivo de ter considerado esse nível desafiador.</p>
+        </article>
+    </section>
+
+    <section id="reflexao-aplicacao">
+        <h2>Reflexão e Aplicação Prática</h2>
+
+        <h3>Propriedades CSS utilizadas</h3>
+        <ul>
+            <li><code>display: flex;</code> — Define o container como flexível;</li>
+            <li><code>flex-direction</code> — Controla a direção dos itens (linha, coluna);</li>
+            <li><code>justify-content</code> — Alinha os itens ao longo do eixo principal;</li>
+            <li><code>align-items</code> — Alinha os itens ao longo do eixo transversal;</li>
+            <li><code>flex-wrap</code> — Permite que os itens quebrem a linha e vão para a próxima;</li>
+            <li><code>order</code> — Define a ordem visual dos itens;</li>
+            <li><code>align-self</code> — Alinha individualmente um item;</li>
+            <!-- adicione as que você utilizou -->
+        </ul>
+
+        <h3>Aplicação prática imaginada</h3>
+        <p>Por exemplo: Para construir um menu de navegação responsivo, usaria Flexbox para alinhar os itens horizontalmente com <code>justify-content: space-between;</code>, garantindo que o menu se adapte bem em diferentes tamanhos de tela. Também usaria <code>flex-wrap</code> para permitir que os itens se movam para a próxima linha em telas pequenas. Além disso, para uma galeria de fotos, organizaria as imagens em uma grade flexível com espaçamento e alinhamento adequados para manter a estética.</p>
+    </section>
+
+</body>
+</html>
